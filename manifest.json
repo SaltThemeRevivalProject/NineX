@@ -15,9 +15,9 @@
   "license": "AGPL-3.0-or-later",
   "type": "replugged-theme",
   "main": "scss/w9x.scss",
-  "source": "https://github.com/Saltssaumure/w9x-discord-theme",
+  "source": "https://github.com/SaltThemeRevivalProject/NineX",
   "image": [
-    "https://saltssaumure.github.io/w9x-discord-theme/preview/ninex1.png",
-    "https://saltssaumure.github.io/w9x-discord-theme/preview/ninex2.png"
+    "https://saltthemerevivalproject.github.io/NineX/preview/ninex1.png",
+    "https://saltthemerevivalproject.github.io/NineX/preview/ninex2.png"
   ]
 }
