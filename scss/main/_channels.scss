@@ -148,11 +148,11 @@
 
 // Channels: black on none bg
 :is(
-        .modeConnected__2ea32,
-        .modeUnreadImportant__2ea32:not(:hover),
-        .notInteractive__2ea32.modeConnected__2ea32,
-        .notInteractive__2ea32.modeSelected__2ea32
-    ) {
+    .modeConnected__2ea32,
+    .modeUnreadImportant__2ea32:not(:hover),
+    .notInteractive__2ea32.modeConnected__2ea32,
+    .notInteractive__2ea32.modeSelected__2ea32
+) {
     .name__2ea32 {
         color: var(--channels-default);
     }

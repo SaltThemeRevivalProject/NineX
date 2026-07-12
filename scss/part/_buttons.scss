@@ -2,14 +2,14 @@
 @use "../top/boxes" as boxes;
 
 :is(
-        .button_d5f3cd,
-        .welcomeCTAButtonOuter_f5d1e2,
-        .friendRequestsButton__523aa,
-        .button__292b6,
-        .lookFilled__201d5,
-        .lookOutlined__201d5,
-        .lookInverted_a299dc
-    ) {
+    .button_d5f3cd,
+    .welcomeCTAButtonOuter_f5d1e2,
+    .friendRequestsButton__523aa,
+    .button__292b6,
+    .lookFilled__201d5,
+    .lookOutlined__201d5,
+    .lookInverted_a299dc
+) {
     @include boxes.clickable;
 }
 

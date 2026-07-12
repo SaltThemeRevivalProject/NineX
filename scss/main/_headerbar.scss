@@ -3,14 +3,14 @@
 
 // Header bars
 :is(
-        .container__133bf .container__9293f,
-        .container__808a1 .container__9293f,
-        .pageWrapper_a3a4ce .scroller_a3a4ce,
-        .scroller_a39aa3 .viewWrapper_a39aa3,
-        .applicationStore_f07d62 .homeWrapper__0920e,
-        .container__01ae2:not(.floating__01ae2) .container__9293f:not(.wrapper_cb9592 .container__9293f),
-        .chat_f75fb0 .container__9293f:not(.wrapper_cb9592 .container__9293f)
-    ) {
+    .container__133bf .container__9293f,
+    .container__808a1 .container__9293f,
+    .pageWrapper_a3a4ce .scroller_a3a4ce,
+    .scroller_a39aa3 .viewWrapper_a39aa3,
+    .applicationStore_f07d62 .homeWrapper__0920e,
+    .container__01ae2:not(.floating__01ae2) .container__9293f:not(.wrapper_cb9592 .container__9293f),
+    .chat_f75fb0 .container__9293f:not(.wrapper_cb9592 .container__9293f)
+) {
     margin-top: $title-height;
     z-index: 0;
 

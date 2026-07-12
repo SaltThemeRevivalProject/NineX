@@ -1,3 +1,5 @@
+@use "sass:list";
+
 $backgrounds: (
     "cmd",
     "trash-full",
@@ -21,7 +23,7 @@ $backgrounds: (
 @mixin folderIcon() {
     @for $i from 1 through 14 {
         .folderGroup__48112:nth-child(#{$i}) .folderGroupBackground__48112 + .listItem__650eb {
-            background: url("https://saltthemerevivalproject.github.io/NineX/img/icon/" + nth($backgrounds, $i) + ".avif")
+            background: url("https://saltthemerevivalproject.github.io/NineX/img/icon/" + list.nth($backgrounds, $i) + ".avif")
                 center
                 no-repeat;
         }
