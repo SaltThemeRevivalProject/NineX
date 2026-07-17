@@ -12,17 +12,32 @@
     top: 180px;
     height: 65vh;
     max-height: calc(100vh - 400px);
+    width: $panel-width;
     background: var(--background-secondary);
     z-index: 1; // Elevates above double border
+}
+
+// Members content wrapper with scroller
+.membersWrap_c8ffbb {
+    width: $panel-width;
+    min-width: unset;
+}
+
+// Member category/role title
+.membersGroup_c8ffbb {
+    padding-top: 10px; // Opinionated, should this be made into a var?
 }
 
 // Members list scroller
 .members_c8ffbb {
     margin-top: $title-height;
+    width: $panel-width;
+    background: none;
 
     // Member
     .member__5d473 {
         margin-left: 4px;
+        background: none;
 
         // Custom status or activity
         &:is(:hover, .selected__91a9d) .activityText__5d473 {
