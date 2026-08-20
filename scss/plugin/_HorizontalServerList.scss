@@ -7,44 +7,45 @@
 body #app-mount .guilds__5e434 {
     // Leave gap for control panel
     height: calc(100vw - $panel-width) !important;
-    left: calc(100vw - $panel-width);
+    /* left: calc(100vw - $panel-width); */
     z-index: 0;
 
-    .folderGroup__48112 > .listItem__650eb,
+    .tree_ef3116 {
+        padding-top: 0px;
+    }
+
+    /* .folderGroup__48112 > .listItem__650eb,
     .scroller_ef3116 > div > .listItem__650eb,
     .scroller_ef3116 > .listItem__650eb {
         left: -7px;
         position: relative;
-    }
+    } */
 
     .scroller_ef3116 > div > .listItem__650eb > .pill_e5445c {
         bottom: -20px !important;
     }
 }
 
-// Opened folder icon
-#app-mount .folderGroupBackground__48112:not(.collapsed__48112) + .listItem__650eb {
-    @include boxes.inset;
-    .expandedFolderIconWrapper__48112 {
-        display: none;
-    }
+// Undo rotation of folders
+.folderButtonInner__48112
+{
+    rotate: 90deg;
 }
 
 #app-mount .guilds__5e434 {
     // Servers in opened folder
-    .folderGroup__48112 ul[role="group"] {
-        gap: 0px;
-        align-items: center;
-    }
+    .folderGuildsList__48112 {
+        --guildbar-avatar-size: 24px;
+        --blob-scale: 24;
 
-    ul > [class*="listItem"]:not([class*="listItemWrapper"]) {
-        --server-size: 24px;
-        margin: 0;
+        gap: 0px !important;
+        align-items: center;
+        margin: 0 0 5px 0;
     }
 }
 
 // Titlebar on macOS
-html.platform-osx #app-mount {
+/* html.platform-osx #app-mount {
     .base__5e434 {
         top: 0 !important;
     }
@@ -52,4 +53,4 @@ html.platform-osx #app-mount {
     .typeMacOS__421ed {
         width: auto;
     }
-}
+} */

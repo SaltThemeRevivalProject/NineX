@@ -4,17 +4,19 @@
 @use "../top/msgPill" as msg;
 
 // Channels sidebar
-.sidebar__5e434 {
+.sidebarList__5e434 {
     @include channels.vars;
     @include boxes.box($position: absolute);
     bottom: 0;
     max-height: 60vh;
+    width: $panel-width;
+    z-index: 1;
 
     &::after {
         content: var(--w9x-start-text, "Windows95");
         display: block;
         position: absolute;
-        width: 28px;
+        width: $win95-bar-width;
         height: 100%;
         $textPad: 10px;
         top: -$textPad;
@@ -33,6 +35,14 @@
     // DMs
     .privateChannels_e6b769 {
         padding-left: 28px;
+        padding-bottom: 0px;
+        background: var(--background-secondary);
+    }
+
+    // DMs scroller
+    .scroller__99e7c {
+        margin-bottom: 0px;
+        background: var(--background-secondary);
     }
 }
 
@@ -63,6 +73,20 @@
     }
 }
 
+// Unread indicator "New unreads!"
+.unread__629e4 .active__3b95d {
+    @include boxes.box($isClickable: true);
+    background: var(--background-secondary);
+    /* justify-self: center; */
+    left: $win95-bar-width;
+    width: fit-content;
+    justify-content: left;
+    padding: 0px 5px 0px 5px;
+}
+.unreadBottom__629e4 {
+    bottom: 0px;
+}
+
 // Public server indicator
 .communityInfoPill_f37cb1 {
     @include boxes.box;
@@ -90,6 +114,7 @@
     display: none;
 }
 
+//TODO: What is this meant to do?
 // Channel group
 .wrapper__29444:is(.muted__29444:hover, :hover) :is(.icon__29444, .name__29444),
 .privateChannelsHeaderContainer__99e7c:hover :is(.headerText__99e7c, .privateChannelRecipientsInviteButtonIcon__99e7c) {
@@ -169,6 +194,8 @@
     :is(.icon__2ea32, .name__2ea32) {
         color: var(--interactive-hover);
     }
+
+    background: $darkblue;
 
     .unreadImportant__2ea32 {
         background: var(--interactive-hover);
