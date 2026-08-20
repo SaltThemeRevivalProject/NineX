@@ -2,20 +2,20 @@
 @use "../../../top/boxes" as boxes;
 
 // # My Account
-.accountProfileCard_b69b77 {
+.accountProfileCard_a9178b {
     @include boxes.box;
 
-    .background_b69b77 {
+    .background_a9178b {
         @include boxes.inset;
     }
 
-    .overflowMenuIcon_b69b77 {
+    .overflowMenuIcon_a9178b {
         @include boxes.clickable;
     }
 
-    .badgeList_b69b77 {
+    .badgeList_a9178b {
         gap: 0;
-        .anchor_af404b {
+        .anchor_edefb8 {
             @include boxes.clickable;
         }
     }

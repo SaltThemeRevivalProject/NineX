@@ -1,3 +1,5 @@
+@use "sass:list";
+
 $backgrounds: (
     "cmd",
     "trash-full",
@@ -19,9 +21,9 @@ $backgrounds: (
 );
 
 @mixin folderIcon() {
-    @for $i from 1 through 14 {
-        .wrapper_bc7085:nth-child(#{$i}) .expandedFolderBackground_bc7085 + .listItem_c96c45 {
-            background: url("https://saltssaumure.github.io/w9x-discord-theme/img/icon/" + nth($backgrounds, $i) + ".avif")
+    @for $i from 1 through list.length($backgrounds) {
+        :nth-child(#{$i} of .folderGroup__48112) .folderButtonInner__48112 {
+            background: url("https://saltthemerevivalproject.github.io/NineX/img/icon/" + list.nth($backgrounds, $i) + ".avif")
                 center
                 no-repeat;
         }

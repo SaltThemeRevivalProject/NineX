@@ -69,11 +69,11 @@
         border-bottom: 0;
     }
 
-    &:is(.selected_a0, :active, :hover) {
+    &:is(.selected_aa8da2, :active, :hover) {
         border-bottom-color: transparent;
     }
 
-    &:is(.selected_a0, :active) {
+    &:is(.selected_aa8da2, :active) {
         background: $grey;
         z-index: 1;
     }

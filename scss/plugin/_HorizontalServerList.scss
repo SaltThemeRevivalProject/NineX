@@ -4,52 +4,53 @@
 // Override HSL options
 
 // Override HSL
-body #app-mount .guilds_a4d4d9 {
+body #app-mount .guilds__5e434 {
     // Leave gap for control panel
     height: calc(100vw - $panel-width) !important;
-    left: calc(100vw - $panel-width);
+    /* left: calc(100vw - $panel-width); */
     z-index: 0;
 
-    .wrapper_bc7085 > .listItem_c96c45,
-    .scroller_fea3ef > div > .listItem_c96c45,
-    .scroller_fea3ef > .listItem_c96c45 {
-        left: -7px;
-        position: relative;
+    .tree_ef3116 {
+        padding-top: 0px;
     }
 
-    .scroller_fea3ef > div > .listItem_c96c45 > .pill_a5ad63 {
+    /* .folderGroup__48112 > .listItem__650eb,
+    .scroller_ef3116 > div > .listItem__650eb,
+    .scroller_ef3116 > .listItem__650eb {
+        left: -7px;
+        position: relative;
+    } */
+
+    .scroller_ef3116 > div > .listItem__650eb > .pill_e5445c {
         bottom: -20px !important;
     }
 }
 
-// Opened folder icon
-#app-mount .expandedFolderBackground_bc7085:not(.collapsed_bc7085) + .listItem_c96c45 {
-    @include boxes.inset;
-    .expandedFolderIconWrapper_bc7085 {
-        display: none;
-    }
+// Undo rotation of folders
+.folderButtonInner__48112
+{
+    rotate: 90deg;
 }
 
-#app-mount .guilds_a4d4d9 {
+#app-mount .guilds__5e434 {
     // Servers in opened folder
-    .wrapper_bc7085 ul[role="group"] {
-        gap: 0px;
-        align-items: center;
-    }
+    .folderGuildsList__48112 {
+        --guildbar-avatar-size: 24px;
+        --blob-scale: 24;
 
-    ul > [class*="listItem"]:not([class*="listItemWrapper"]) {
-        --server-size: 24px;
-        margin: 0;
+        gap: 0px !important;
+        align-items: center;
+        margin: 0 0 5px 0;
     }
 }
 
 // Titlebar on macOS
-html.platform-osx #app-mount {
-    .base_a4d4d9 {
+/* html.platform-osx #app-mount {
+    .base__5e434 {
         top: 0 !important;
     }
 
-    .typeMacOS_a934d8 {
+    .typeMacOS__421ed {
         width: auto;
     }
-}
+} */

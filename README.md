@@ -1,10 +1,10 @@
-[screenshot]:       https://saltssaumure.github.io/w9x-discord-theme/preview/preview.png
-[light]:            https://saltssaumure.github.io/w9x-discord-theme/preview/ninex1.png
-[dark]:             https://saltssaumure.github.io/w9x-discord-theme/preview/ninex2.png
+[screenshot]:       https://saltthemerevivalproject.github.io/NineX/preview/preview.png
+[light]:            https://saltthemerevivalproject.github.io/NineX/preview/ninex1.png
+[dark]:             https://saltthemerevivalproject.github.io/NineX/preview/ninex2.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [css-string]:       https://developer.mozilla.org/en-US/docs/Web/CSS/string
-[discord]:          https://discord.gg/uy8nKQVatp
+[discord]:          https://discord.gg/NNXFh3bEUK
 
 [BetterDiscord]:    https://betterdiscord.app/
 [Replugged]:        https://replugged.dev/
@@ -13,19 +13,19 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-css-dl]:    https://img.shields.io/github/downloads/Saltssaumure/w9x-discord-theme/NineX.theme.css?color=purple&label=BetterDiscord%20GitHub%20downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/Saltssaumure/w9x-discord-theme/net.saltssaumure.NineX.asar?color=purple&label=Replugged%20GitHub%20downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/saltssaumure/w9x-discord-theme?style=flat-square "Total size"
+[shield-css-dl]:    https://img.shields.io/github/downloads/SaltThemeRevivalProject/NineX/NineX.theme.css?color=purple&label=BetterDiscord%20GitHub%20downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/SaltThemeRevivalProject/NineX/net.saltssaumure.NineX.asar?color=purple&label=Replugged%20GitHub%20downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/SaltThemeRevivalProject/NineX?style=flat-square "Total size"
 
-[github]:           https://github.com/Saltssaumure/w9x-discord-theme
-[issues]:           https://github.com/Saltssaumure/w9x-discord-theme/issues
-[license]:          https://github.com/Saltssaumure/w9x-discord-theme/blob/main/LICENSE
-[.theme.css]:       https://github.com/Saltssaumure/w9x-discord-theme/blob/main/NineX.theme.css
+[github]:           https://github.com/SaltThemeRevivalProject/NineX
+[issues]:           https://github.com/SaltThemeRevivalProject/NineX/issues
+[license]:          https://github.com/SaltThemeRevivalProject/NineX/blob/main/LICENSE
+[.theme.css]:       https://github.com/SaltThemeRevivalProject/NineX/blob/main/NineX.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=933 "BetterDiscord store page"
-[release-css-gh]:   https://github.com/Saltssaumure/w9x-discord-theme/releases/latest/download/NineX.theme.css "Latest release"
+[release-css-gh]:   https://github.com/SaltThemeRevivalProject/NineX/releases/latest/download/NineX.theme.css "Latest release"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.NineX "Replugged store page"
-[release-rp-gh]:    https://github.com/Saltssaumure/w9x-discord-theme/releases/latest/download/net.saltssaumure.NineX.asar "Latest release"
+[release-rp-gh]:    https://github.com/SaltThemeRevivalProject/NineX/releases/latest/download/net.saltssaumure.NineX.asar "Latest release"
 
 # NineX Discord Theme
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
@@ -34,6 +34,8 @@
 ![Total size][shield-repo-size]
 
 ***A Windows 95/98 style Discord theme.***
+
+This is a fork of the [original](https://github.com/Saltssaumure/w9x-discord-theme) by Saltssaumure which is currently abandoned.
 
 | Light mode                                                  | Dark mode                                                 |
 | ----------------------------------------------------------- | --------------------------------------------------------- |
@@ -81,7 +83,7 @@
 3. Click `Load missing Themes` and toggle on the theme card.
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
-    - `https://saltssaumure.github.io/w9x-discord-theme/NineX.theme.css`
+    - `https://saltthemerevivalproject.github.io/NineX/NineX.theme.css`
 </details>
 
 ## Customisation
@@ -142,10 +144,10 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 ## Credits
 ### Themes
 [hsl]:      https://github.com/DiscordStyles/HorizontalServerList
-[squared]:  https://github.com/MiniDiscordThemes/Squared
+[squared]:  https://github.com/SaltThemeRevivalProject/Squared
 
 - [HorizontalServerList][hsl] by [DiscordStyles](https://github.com/DiscordStyles) ([Gibbu](https://github.com/Gibbu)) - MIT license
-- [Squared][squared] by [MiniDiscordThemes](https://github.com/MiniDiscordThemes) ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
+- [Squared][squared] by [MiniDiscordThemes](https://github.com/MiniDiscordThemes), using the [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
 
 ### Fonts
 [w95fa]:    https://www.dafont.com/w95fa.font
@@ -163,4 +165,4 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
-- Post in `#theme-support` on [my support server][discord].
+- Post in the ninex channel on [the Discord server][discord].

@@ -1,8 +1,8 @@
 {
   "name": "ninex-discord-theme",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "A Windows 95/98 style Discord theme.",
-  "repository": "github:Saltssaumure/w9x-discord-theme",
+  "repository": "github:SaltThemeRevivalProject/NineX",
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "AGPL-3.0-or-later",
   "private": true,

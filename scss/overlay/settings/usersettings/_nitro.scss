@@ -1,15 +1,15 @@
 @use "../../../top/vars" as *;
 @use "../../../top/boxes" as boxes;
 
-.perkCardsContainerSpacingSettings_a8b566,
-.premiumTierCardsContainerSettings_a8b566,
-.perksTitle_d611db,
-.titleText_b1bbf4 {
+.perkCardsContainerSpacingSettings_c880e8,
+.premiumTierCardsContainerSettings_c880e8,
+.perksTitle_e6430c,
+.titleText__7eea4 {
     margin-bottom: 8px;
 }
 
-.container_f26610,
-.card_c87d73 {
+.container_cd0f26,
+.card_a2332b {
     @include boxes.inset;
     padding: 16px;
 }
@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-.premiumCards_c87d73 {
+.premiumCards_a2332b {
     gap: 0;
 }
 
@@ -37,7 +37,7 @@
     }
 }
 
-.table_b1bbf4 {
+.table__7eea4 {
     @include boxes.box;
     tbody :is(th, td) {
         @include boxes.inset;
@@ -45,7 +45,7 @@
     th {
         padding: 4px;
     }
-    .row_b1bbf4 {
+    .row__7eea4 {
         height: auto;
     }
     .buttonsCell-gSFzSA {
@@ -59,7 +59,7 @@
     padding-bottom: 8px;
 }
 
-.bottomIllustration_a8b566 {
+.bottomIllustration_c880e8 {
     position: fixed;
     bottom: 0;
 }

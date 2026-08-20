@@ -1,18 +1,18 @@
 /**
  * @name NineX
- * @author Saltssaumure
+ * @author Saltssaumure, SaltThemeRevivalProject
  * @authorLink https://github.com/Saltssaumure
  * @description A Windows 9x style Discord theme.
  * @license AGPL-3.0-or-later
  * @version 1.7
- * @invite uy8nKQVatp
- * @source https://github.com/Saltssaumure/w9x-discord-theme
+ * @invite NNXFh3bEUK
+ * @source https://github.com/SaltThemeRevivalProject/NineX
  * @donate https://ko-fi.com/saltssaumure
 */
 
-@import url("https://saltssaumure.github.io/w9x-discord-theme/w9x.min.css");
+@import url("https://saltthemerevivalproject.github.io/NineX/w9x.min.css");
 
-/* See https://github.com/Saltssaumure/w9x-discord-theme#customisation for customisation settings. */
+/* See https://github.com/SaltThemeRevivalProject/NineX#customisation for customisation settings. */
 :root {
     --w9x-background-image: none;
     --w9x-background-color: #008080;
