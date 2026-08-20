@@ -147,7 +147,7 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 [squared]:  https://github.com/SaltThemeRevivalProject/Squared
 
 - [HorizontalServerList][hsl] by [DiscordStyles](https://github.com/DiscordStyles) ([Gibbu](https://github.com/Gibbu)) - MIT license
-- [Squared][squared] by [MiniDiscordThemes](https://github.com/MiniDiscordThemes), using [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
+- [Squared][squared] by [MiniDiscordThemes](https://github.com/MiniDiscordThemes), using the [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
 
 ### Fonts
 [w95fa]:    https://www.dafont.com/w95fa.font
