@@ -71,8 +71,7 @@
 }
 
 // Closed folder icon
-.folderGroup__48112:not(.isExpanded__48112)
-{
+.folderGroup__48112:not(.isExpanded__48112) {
     .folderButton__48112 {
         @include boxes.clickable();
     }
