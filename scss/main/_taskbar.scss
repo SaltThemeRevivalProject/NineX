@@ -12,7 +12,7 @@
     --guildbar-folder-size: calc(var(--guildbar-avatar-size) + 2px);
     --folder-blob-scale: calc(var(--blob-scale) + 2);
 
-    --custom-guild-list-width: 45px !important;
+    --custom-guild-list-width: 46px !important;
 
     --HSL-server-spacing: 6px;
     --HSL-server-direction: column;
@@ -121,16 +121,11 @@
     bottom: 0;
     left: calc(100vw - $panel-width);
     width: $panel-width;
-    height: var(--custom-guild-list-width) !important;
-    z-index: 0;
+    z-index: 2;
     background: var(--background-secondary);
 
     &::before {
         border-left: none;
-    }
-
-    &:hover {
-        z-index: 2;
     }
 }
 

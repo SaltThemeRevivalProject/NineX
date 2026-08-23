@@ -65,4 +65,8 @@
 // Main chat
 .chat_f75fb0:not(.container__0b563 > .chat_f75fb0) {
     @include boxes.mainWindow();
+
+    &:hover {
+        z-index: 3;
+    }
 }
