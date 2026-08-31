@@ -8,7 +8,7 @@
     @include channels.vars;
     @include boxes.box($position: absolute);
     bottom: 0;
-    max-height: 60vh;
+    height: 60vh !important;
     width: $panel-width;
     z-index: 1;
 
