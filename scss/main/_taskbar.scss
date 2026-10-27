@@ -36,6 +36,10 @@
         background: var(--background-secondary);
         border-color: $white $white $black $black;
 
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
         &::before {
             border-color: $lightgrey $lightgrey $darkgrey $darkgrey;
         }
