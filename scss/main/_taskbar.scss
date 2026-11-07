@@ -6,7 +6,7 @@
     --guildbar-avatar-size: 36px;
     --blob-scale: 36;
 
-    // For some reason, the server icons seem to be oversized on the .blobContainer_e5445c by exactly 2 pixels...
+    // For some reason, the server icons seem to be oversized on the .blobContainer_IaPwK5 by exactly 2 pixels...
     // I can't seem to be able to fix that so instead I just sized up the folder size by 2 pixels
     // until someone else can come up with a more elegant solution.
     --guildbar-folder-size: calc(var(--guildbar-avatar-size) + 2px);
@@ -21,17 +21,17 @@
 }
 
 // Taskbar
-.wrapper_ef3116 {
+.wrapper_5dqHTG {
     //The +10px and padding-bottom is needed to get rid of a shadow
     //that forms near the control panel when the taskbar is too short
     height: calc(100vw - $panel-width + 10px) !important;
     padding-bottom: 20px;
     //Spacing between each server icon
-    .stack_dbd263 {
+    .stack_TWWX0S {
         gap: var(--HSL-server-spacing) !important;
     }
 
-    .scroller_ef3116 {
+    .scroller_5dqHTG {
         @include boxes.box();
         background: var(--background-secondary);
         border-color: $white $white $black $black;
@@ -50,7 +50,7 @@
         }
     }
 
-    .unreadMentionsBar_ef3116 {
+    .unreadMentionsBar_5dqHTG {
         display: none; // Ugly
     }
 }
@@ -61,22 +61,22 @@
 }
 
 // Discord icon wrapper and all server icons (excluding pill)
-.listItemWrapper__91816,
-.wrapper_cc5dd2 {
+.listItemWrapper_tQErD4,
+.wrapper_hqZPsU {
     width: var(--guildbar-avatar-size) !important;
     height: var(--guildbar-avatar-size) !important;
 }
 
 // Server icon (excluding pill)
-.listItem__650eb {
-    .blobContainer_e5445c {
+.listItem_rwEpIL {
+    .blobContainer_IaPwK5 {
         @include boxes.clickable;
     }
 }
 
 // Closed folder icon
-.folderGroup__48112:not(.isExpanded__48112) {
-    .folderButton__48112 {
+.folderGroup_RTMSuZ:not(.isExpanded_RTMSuZ) {
+    .folderButton_RTMSuZ {
         @include boxes.clickable();
     }
 }
@@ -84,39 +84,39 @@
 @include fi.folderIcon;
 
 // Opened folder icon
-.isExpanded__48112 {
-    .folderButton__48112 {
+.isExpanded_RTMSuZ {
+    .folderButton_RTMSuZ {
         @include boxes.inset;
     }
 }
 
 // Hide folder previews
-.folderIconWrapper__48112,
-.folderPreviewWrapper__48112 {
+.folderIconWrapper_RTMSuZ,
+.folderPreviewWrapper_RTMSuZ {
     display: none;
 }
 
 // Opened folder background strip
-.folderGroupBackground__48112:not(.collapsed__48112) {
+.folderGroupBackground_RTMSuZ:not(.collapsed__48112) {
     background: transparent;
 }
 
 //Fix open folders being too wide due to Discord somehow manually setting width
-.isExpanded__48112 {
-    .stack_dbd263 {
+.isExpanded_RTMSuZ {
+    .stack_TWWX0S {
         height: 100% !important;
     }
 }
 
-.hiddenVisually_b18fe2 {
-    .icon_f34534,
+.hiddenVisually_FX8kaC {
+    .icon_qqAqr1,
     svg {
         display: none;
     }
 }
 
 // Control panel
-.panels__5e434 {
+.panels_pog62O {
     @include boxes.box;
 
     border-left: none;
@@ -134,7 +134,7 @@
 }
 
 // Flip order
-.container__37e49 {
+.container_g6VwXp {
     height: calc(var(--server-container) - 2px);
     flex-direction: row-reverse;
     gap: 6px;
@@ -142,14 +142,14 @@
 }
 
 // Controls
-.buttons__37e49 {
+.buttons_g6VwXp {
     gap: 0px;
     padding-left: 5px;
 
-    .button__67645 {
+    .button_Y-8oZW {
         @include boxes.clickable;
 
-        &.enabled__67645:hover,
+        &.enabled_Y-8oZW:hover,
         &:active {
             background: inherit;
             color: inherit;

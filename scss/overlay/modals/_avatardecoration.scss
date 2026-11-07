@@ -1,17 +1,17 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.modalContent_bcd779:has(.decorationGridItem__828af) {
-    .list__828af {
+.modalContent_UlS6S9:has(.decorationGridItem_hxzEt-) {
+    .list_hxzEt- {
         @include boxes.scroller;
         left: 0;
 
-        .content__99f8c > div {
+        .content_JFqgFB > div {
             left: 0 !important;
         }
     }
 
-    .decorationGridItem__828af {
+    .decorationGridItem_hxzEt- {
         @include boxes.clickable;
 
         &.selected-IxbpGM {
@@ -20,10 +20,10 @@
         }
     }
 
-    .wrapper__44b0c {
+    .wrapper_XpIUHy {
         @include boxes.box;
 
-        .avatarDecoration__44b0c {
+        .avatarDecoration_XpIUHy {
             z-index: 1;
         }
     }

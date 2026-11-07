@@ -2,12 +2,12 @@
 @use "../../top/boxes" as boxes;
 
 // Threads
-.browser_d98031 {
+.browser_l-3BKx {
     @include boxes.box;
 
-    .header_d9c882 {
-        .divider_d9c882,
-        .spacer_d9c882 {
+    .header_c0tu5x {
+        .divider_c0tu5x,
+        .spacer_c0tu5x {
             display: none;
         }
 
@@ -25,26 +25,26 @@
             }
         }
 
-        .createButton_d9c882 {
+        .createButton_c0tu5x {
             height: 26px;
         }
 
-        .closeIcon_d9c882 {
+        .closeIcon_c0tu5x {
             @include boxes.clickable;
             height: 24px;
         }
 
         .searchBox_d9c882,
-        .createButton_d9c882 {
+        .createButton_c0tu5x {
             margin-right: 0;
         }
     }
 
-    .container__6764b {
+    .container_yRVHqK {
         @include boxes.clickable;
     }
 
-    .jump__5126c {
+    .jump_SY_P2T {
         @include boxes.clickable($position: absolute);
     }
 }

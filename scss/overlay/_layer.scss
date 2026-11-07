@@ -1,25 +1,25 @@
 @use "../top/vars" as *;
 @use "../top/boxes" as boxes;
 
-.baseLayer__960e4.stop-animations {
+.baseLayer_Fd0FEH.stop-animations {
     opacity: 1 !important;
     transform: scale(1) !important;
 
-    .container__5e434 {
+    .container_pog62O {
         filter: grayscale(0.8) brightness(0.5);
         backdrop-filter: brightness(1);
     }
 }
 
-.layers__960e4 > .layer__960e4 .animating__960e4 {
+.layers_Fd0FEH > .layer_Fd0FEH .animating_Fd0FEH {
     transform: none !important;
 }
 
-.layer__960e4 {
+.layer_Fd0FEH {
     background: transparent;
 }
 
-.pictureInPictureWindow__6341f {
+.pictureInPictureWindow_69M0s9 {
     overflow: visible;
     border-radius: 0;
 

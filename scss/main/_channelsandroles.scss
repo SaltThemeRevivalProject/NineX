@@ -2,36 +2,36 @@
 @use "../top/boxes" as boxes;
 
 // Tabs
-.tabBar__0b563 {
+.tabBar_xTP3zy {
     margin: 0 16px;
     border-bottom: 0;
 
-    .tabBarItem__0b563 {
+    .tabBarItem_xTP3zy {
         padding-bottom: 8px;
     }
 }
 
 // Customise
-.appMount__51fd7 .scrollerContainer_c6b11b {
+.appMount_gEkNtR .scrollerContainer_c6b11b {
     background: $bg;
     @include boxes.inset;
 }
 
-.pageBody__5d7c9 h2 {
+.pageBody_pHGfKY h2 {
     color: $text !important;
 }
 
-.prompt__5d7c9 {
+.prompt_pHGfKY {
     background: $bg;
     border-color: unset !important;
     padding: 0;
 }
 
-.promptOptions__5d7c9 {
+.promptOptions_pHGfKY {
     gap: 0;
 }
 
-.optionButtonWrapper__270d7 {
+.optionButtonWrapper_87WSWY {
     background: $grey;
     @include boxes.clickable;
 
@@ -43,32 +43,32 @@
         border-color: $black $white $white $black;
     }
 
-    &.pressed__270d7 {
+    &.pressed_87WSWY {
         transform: none;
     }
 
-    &.selected__270d7 {
+    &.selected_87WSWY {
         @include boxes.inset;
 
-        .checkIcon__270d7 {
+        .checkIcon_87WSWY {
             top: 4px;
             right: 4px;
         }
     }
 }
 
-.helpText__5d7c9 {
+.helpText_pHGfKY {
     .text-xs-medium__220aa {
         color: $text !important;
     }
 }
 
 // Browse channels
-.pageBody__41ed7 {
+.pageBody_fTKmdS {
     padding-left: 0;
 }
 
-.browser__41ed7 {
+.browser_fTKmdS {
     background: $bg;
     @include boxes.scroller;
 }

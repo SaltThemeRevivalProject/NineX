@@ -2,16 +2,16 @@
 @use "../../../top/boxes" as boxes;
 
 #game-activity-tab {
-    .gameName_b53c4e {
+    .gameName_kQPUsd {
         color: $black;
     }
 
-    .lastPlayed_b53c4e,
+    .lastPlayed_kQPUsd,
     .overlayStatusText__668e1 {
         color: $darkgrey;
     }
 
-    .activeGame_b53c4e {
+    .activeGame_kQPUsd {
         @include boxes.box;
     }
 
@@ -19,11 +19,11 @@
         color: $black;
     }
 
-    .card__4bb93 {
+    .card_5Yn7E3 {
         @include boxes.box;
         padding: 8px;
 
-        .gameNameInput_b53c4e {
+        .gameNameInput_kQPUsd {
             &:focus,
             &:hover {
                 background: $white;
@@ -43,7 +43,7 @@
             }
         }
 
-        .flowerStar__3e3b0 path {
+        .flowerStar_d3vyhc path {
             fill: $darkblue;
         }
     }
@@ -57,7 +57,7 @@
 }
 
 // Technically a popover
-.animatorBottom_faf9c0 .addGamePopout_cc46f0 {
+.animatorBottom_98D4cN .addGamePopout_cc46f0 {
     background: $grey;
     @include boxes.box;
 

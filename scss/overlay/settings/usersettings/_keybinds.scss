@@ -5,11 +5,11 @@
     @include boxes.box;
 }
 
-.marginTop60_fd297e {
+.marginTop60_cWXVcV {
     margin-top: 16px;
 }
 
-.defaultKeybindGroup_f82450 {
+.defaultKeybindGroup_-wlZx4 {
     margin: 16px 0 0;
 
     .defaultKeybindGroupHeader__740f2,
@@ -18,23 +18,23 @@
     }
 }
 
-.defaultKeybind_f82450 {
+.defaultKeybind_-wlZx4 {
     padding: 4px;
     height: 32px;
     @include boxes.inset;
 
-    &:has(.combo__61c93:nth-child(2)) {
+    &:has(.combo_dMUH0f:nth-child(2)) {
         height: 64px;
     }
 }
 
-.appMount__51fd7 .combo__61c93 {
+.appMount_gEkNtR .combo_dMUH0f {
     text-transform: capitalize;
     font-weight: unset;
     font-size: 14px;
     line-height: 16px;
 
-    .key__61c93 {
+    .key_dMUH0f {
         @include boxes.box;
         box-shadow: none;
         background: $darkgrey;

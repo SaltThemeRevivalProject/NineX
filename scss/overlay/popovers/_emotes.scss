@@ -1,7 +1,7 @@
 @use "../../top/vars" as *;
 @use "../../top/boxes" as boxes;
 
-.contentWrapper__08434,
+.contentWrapper_58b0l2,
 .contentWrapper_eab878 {
     @include boxes.box;
     // grid-row-gap: 0;
@@ -9,19 +9,19 @@
 
 // Gifs / Stickers / Emojis tabs
 // Reaction / Super Reaction tabs
-:is(.nav__08434, .nav__2aafa) {
+:is(.nav_58b0l2, .nav__2aafa) {
     border-bottom: 1px solid $darkgrey;
 }
-:is(.navItem__08434, .navItem_bd587d) {
+:is(.navItem_58b0l2, .navItem_bd587d) {
     @include boxes.tab;
     margin-right: 0;
     top: -2px;
 
-    & + .navItem__08434 {
+    & + .navItem_58b0l2 {
         margin-left: 0;
     }
 
-    &:is(.navButtonActive__08434, .navButtonActive_b003de) {
+    &:is(.navButtonActive_58b0l2, .navButtonActive_b003de) {
         background: $grey;
         color: var(--interactive-active);
     }
@@ -55,7 +55,7 @@
 }
 
 // Header
-:is(.emojiPickerHasTabWrapper_c0e32c .header_c0e32c, .header_c0e32c, .header__8ef02, .header_fed6d3) {
+:is(.emojiPickerHasTabWrapper_-sZhZn .header_-sZhZn, .header_-sZhZn, .header_WSRqCO, .header_rfDq2B) {
     padding: 0 8px 8px;
 
     // VC picker
@@ -68,7 +68,7 @@
     }
 
     // Back button
-    .backButton_fed6d3 {
+    .backButton_rfDq2B {
         @include boxes.clickable;
         margin-right: 0;
         padding: 2px 4px;
@@ -76,11 +76,11 @@
     }
 
     // Skin tone selector
-    .diversitySelectorButton_a45a2a {
+    .diversitySelectorButton_eHzdRB {
         @include boxes.clickable;
         padding: 4px;
     }
-    .diversitySelectorOptions_a45a2a {
+    .diversitySelectorOptions_eHzdRB {
         @include boxes.box($position: absolute);
         right: 16px;
     }
@@ -92,7 +92,7 @@
 }
 
 // Emoji picker only panel, eg. in custom status modal
-.layer__59d0d #emoji-picker-tab-panel {
+.layer_VVADeK #emoji-picker-tab-panel {
     @include boxes.box;
     background: $grey;
     padding-top: 8px;
@@ -103,18 +103,18 @@
     background: $grey;
 
     // Scroller
-    .container_d02962 {
+    .container_d2GpC2 {
         background: $bg;
     }
 
     // Favourites
-    .categoryFadeBlurple_d02962 {
+    .categoryFadeBlurple_d2GpC2 {
         background: $darkblue;
         opacity: 0.7;
     }
 
     // Gif / Category
-    .result__2dc39 {
+    .result_H8nOze {
         background: $bg !important;
         @include boxes.clickable;
 
@@ -125,7 +125,7 @@
 }
 
 // Emoji / Sticker picker
-:is(.bodyWrapper_c0e32c, .listWrapper__8ef02) {
+:is(.bodyWrapper_-sZhZn, .listWrapper_WSRqCO) {
     background: $bg;
 
     // Super reactions ad
@@ -136,47 +136,47 @@
     }
 
     // No results search suggestion
-    .searchSuggestion_e94b8c {
+    .searchSuggestion_dCw_12 {
         @include boxes.clickable;
     }
 
     // Emojis list
-    .listItems_affa7e {
+    .listItems_EwKtHG {
         left: 0 !important;
 
         // Category section
-        .categorySection_c656ac {
+        .categorySection_6c9R7U {
             margin-bottom: 0;
         }
 
         // Category header
-        :is(.header_c656ac, .packHeader_e94b8c) {
+        :is(.header_6c9R7U, .packHeader_dCw_12) {
             @include boxes.box;
             z-index: 2;
 
-            .header__14245 {
+            .header_kSdzCr {
                 width: 100%;
                 height: 100%;
             }
 
-            .headerLabel__14245 {
+            .headerLabel_kSdzCr {
                 text-transform: none;
             }
         }
 
-        .emojiItem_fc7141 {
+        .emojiItem_6OcK5D {
             @include boxes.clickable;
 
             &.emojiItemDisabled__843ea {
                 @include boxes.box;
             }
 
-            &.emojiItemSelected_fc7141 {
+            &.emojiItemSelected_6OcK5D {
                 background: transparent;
             }
         }
 
-        .row_c6367b {
+        .row_5z8c5P {
             $gap: 32px;
             column-gap: $gap !important;
             margin-left: $gap;
@@ -185,7 +185,7 @@
             & > div {
                 @include boxes.clickable;
 
-                .inspectedIndicator_c6367b {
+                .inspectedIndicator_5z8c5P {
                     background: transparent;
                 }
             }
@@ -194,22 +194,22 @@
 }
 
 // Emoji info
-.inspector_aeaaeb {
+.inspector_1bDrGE {
     @include boxes.box;
 }
 
 // Servers list
-:is(.emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c, .categoryList_c0e32c, .categoryList__3ad28) {
+:is(.emojiPickerHasTabWrapper_-sZhZn .categoryList_-sZhZn, .categoryList_-sZhZn, .categoryList_40yGEf) {
     @include boxes.box($position: absolute);
     top: 45px;
 
-    :is(.categoryItem_b9ee0c, .stickerCategory__3ad28) {
+    :is(.categoryItem_ufks4w, .stickerCategory_40yGEf) {
         @include boxes.clickable;
         margin-bottom: 0;
     }
 
     // Divider
-    :is(.guildCategorySeparator_b9ee0c, .guildCategorySeparator__3ad28) {
+    :is(.guildCategorySeparator_ufks4w, .guildCategorySeparator_40yGEf) {
         border: unset;
         margin: 4px;
     }

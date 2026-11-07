@@ -4,16 +4,16 @@
 // Replugged:       SpotifyModal
 // Vencord:         SpotifyModal
 
-.panels__5e434 {
-    &:has(.container_e131a9, .activityPanel__5e434, .container__37e49, #spotify-modal-root, #vc-spotify-player) {
+.panels_pog62O {
+    &:has(.container_9U6LUN, .activityPanel_pog62O, .container_g6VwXp, #spotify-modal-root, #vc-spotify-player) {
         height: auto;
     }
 
-    :is(.container_e131a9, .activityPanel__5e434, .container__37e49, #spotify-modal-root, #vc-spotify-player) {
+    :is(.container_9U6LUN, .activityPanel_pog62O, .container_g6VwXp, #spotify-modal-root, #vc-spotify-player) {
         border-bottom: 0;
     }
 
-    &:not(:has(.container_e131a9, .activityPanel__5e434, .container__37e49, #spotify-modal-root, #vc-spotify-player)) {
+    &:not(:has(.container_9U6LUN, .activityPanel_pog62O, .container_g6VwXp, #spotify-modal-root, #vc-spotify-player)) {
         border-left: 0;
         &::before {
             border-left: 0;
