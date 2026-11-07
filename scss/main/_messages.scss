@@ -2,54 +2,54 @@
 @use "../top/boxes" as boxes;
 
 // Chat message display area
-.messagesWrapper__36d07 {
+.messagesWrapper_8AE1Qq {
     margin-bottom: 24px;
     @include boxes.inset;
     background: $bg;
 }
 
 // Placeholder messages
-.wrapper_a35ace,
-.wrapper_fc8177 {
+.wrapper_D2EnIm,
+.wrapper_oITdBA {
     background: $bg;
 }
 
 // Jump to present bar and other bottom bars
-.barBase__0f481 {
+.barBase_j9Vvzj {
     right: 18px;
     left: 0;
     padding-bottom: 0;
 }
 
 // With members list visible
-.base__5e434:has(.membersWrap_c8ffbb) {
+.base_pog62O:has(.membersWrap_86es0b) {
     // VC video controls
-    .bottomControls_bfe55a {
+    .bottomControls_rTsZa_ {
         width: auto;
         padding-right: 150px;
     }
 
     // Message
-    .message__5126c {
+    .message_SY_P2T {
         padding-right: 140px !important;
 
         // Message actions
-        .container__040f0 {
+        .container_V_VY9Q {
             right: 130px;
         }
     }
 }
 
 // Message actions
-.wrapper_f7ecac {
+.wrapper_Z0MHyc {
     height: auto;
 
-    .button_f7ecac {
+    .button_Z0MHyc {
         @include boxes.clickable;
         padding: 0;
 
-        &.disabled_f7ecac,
-        &.disabled_f7ecac:hover {
+        &.disabled_Z0MHyc,
+        &.disabled_Z0MHyc:hover {
             @include boxes.box;
             padding: 0;
         }
@@ -57,25 +57,25 @@
 }
 
 // Text
-.description__00de6,
-.markup__75297,
-.container__235ca,
-.header__00de6,
-.username_c19a55,
-.repliedTextPlaceholder_c19a55,
-.repliedTextPreview_c19a55.clickable_c19a55:hover,
-.repliedMessage_c19a55,
-.subtitle__54b20,
-.markup__75297 code,
-.codeBlockText_ada32f,
-.codeLine_ada32f,
-.operations_bab751,
-.markup__75297 h1,
-.markup__75297 h2,
-.markup__75297 h3,
-.markup__75297 h4,
-.markup__75297 h5,
-.markup__75297 h6 {
+.description_w6h4R2,
+.markup_ku1OHH,
+.container_bLMKT5,
+.header_w6h4R2,
+.username_2i8Bfm,
+.repliedTextPlaceholder_2i8Bfm,
+.repliedTextPreview_2i8Bfm.clickable_2i8Bfm:hover,
+.repliedMessage_2i8Bfm,
+.subtitle_ii8eNV,
+.markup_ku1OHH code,
+.codeBlockText_nsjAhz,
+.codeLine_nsjAhz,
+.operations_h_zE4S,
+.markup_ku1OHH h1,
+.markup_ku1OHH h2,
+.markup_ku1OHH h3,
+.markup_ku1OHH h4,
+.markup_ku1OHH h5,
+.markup_ku1OHH h6 {
     color: $text;
 }
 
@@ -86,39 +86,39 @@
 }
 
 // Blockquote
-.blockquoteDivider__75297 {
+.blockquoteDivider_ku1OHH {
     background: $grey;
 }
 
 // Bullet point
-.markup__75297 li {
+.markup_ku1OHH li {
     list-style-type: square;
 }
 
 // Attachments
-.spoilerInnerContainer__299eb,
+.spoilerInnerContainer_0_7_Rr,
 .messageAttachment__5dae1 .wrapperAudio_f316dd,
-.embedWrapper_b7e1cb.container__4d95d,
-.fileWrapper__0ccae,
-.gridContainer__623de,
-.tile__72090,
-.wrapper_d5f3cd,
+.embedWrapper_b7e1cb.container_BOOBu-,
+.fileWrapper_-9z-XO,
+.gridContainer_XyW1ZT,
+.tile_lS7BT7,
+.wrapper_jsxF_b,
 .imageWrapper__178ee {
     @include boxes.box;
 }
 
 // Remove attachments
-.embedSuppressButton__623de,
-.embedSuppressButton__623de:hover {
+.embedSuppressButton_XyW1ZT,
+.embedSuppressButton_XyW1ZT:hover {
     color: $text;
 }
 
 // Text attachments
-.newMosaicStyle__4d95d .codeView__4d95d {
+.newMosaicStyle_BOOBu- .codeView_BOOBu- {
     margin: 0;
 }
 
-.textContainer__4d95d {
+.textContainer_BOOBu- {
     @include boxes.inset;
     background: $bg;
 
@@ -141,7 +141,7 @@
 }
 
 // Central play pause video button
-.iconWrapper__6eb54 {
+.iconWrapper_ifLhOx {
     @include boxes.clickable;
     opacity: 1;
     background: $grey;
@@ -150,7 +150,7 @@
 
 // Download / delete / alt txt button
 .hoverButton_be4802,
-.mediaMosaicAltText__0f481 {
+.mediaMosaicAltText_j9Vvzj {
     @include boxes.clickable;
 
     &:active,
@@ -162,7 +162,7 @@
 }
 
 // Embed source site
-.embedProvider__623de {
+.embedProvider_XyW1ZT {
     color: var(--text-normal);
 }
 
@@ -177,8 +177,8 @@
 }
 
 // Fullscreen button
-.controlIcon_f1ceac,
-.controlIcon_f1ceac:hover {
+.controlIcon_K9Xq13,
+.controlIcon_K9Xq13:hover {
     color: $black;
 }
 
@@ -223,51 +223,51 @@
 }
 
 // Reactions
-.reaction__23977 {
+.reaction_MmKct8 {
     margin-right: 0;
     border: 0;
 }
 
-.reactionInner__23977 {
+.reactionInner_MmKct8 {
     @include boxes.box;
 }
 
 // Self reactions
-.reaction__23977.reactionMe__23977 {
+.reaction_MmKct8.reactionMe_MmKct8 {
     background: $grey;
 }
 
 // Clicked reactions
-.reactionMe__23977 .reactionInner__23977,
-.reactionInner__23977:active {
+.reactionMe_MmKct8 .reactionInner_MmKct8,
+.reactionInner_MmKct8:active {
     @include boxes.inset;
 
-    .reactionCount__23977 {
+    .reactionCount_MmKct8 {
         color: $black;
     }
 }
 
 // Hovered reactions
-.reaction__23977:hover {
-    .reactionCount__23977 {
+.reaction_MmKct8:hover {
+    .reactionCount_MmKct8 {
         color: $black;
     }
 }
 
 // Add more reactions button
-.reactionBtn__23977:is(:hover, :active) {
-    .icon__23977 {
+.reactionBtn_MmKct8:is(:hover, :active) {
+    .icon_MmKct8 {
         color: $text;
     }
 }
 
 // Open thread button
-.container__9271d {
+.container_g2fiji {
     @include boxes.clickable;
 }
 
 // Links
-.content__235ca a {
+.content_bLMKT5 a {
     color: var(--text-link);
 }
 
@@ -283,50 +283,50 @@
 }
 
 // Spoiler text
-.messageContent_c19a55 {
-    .spoilerMarkdownContent__299eb.hidden__299eb {
+.messageContent_2i8Bfm {
+    .spoilerMarkdownContent_0_7_Rr.hidden_0_7_Rr {
         @include boxes.box;
         background: $darkgrey;
     }
 
-    .spoilerMarkdownContent__299eb {
+    .spoilerMarkdownContent_0_7_Rr {
         @include boxes.inset;
         background: $bg;
     }
 }
 
 // Code blocks
-.markup__75297 code {
+.markup_ku1OHH code {
     @include boxes.box;
     background: $bg;
 }
 
 // Editors
-.editor__1b31f {
+.editor_SHcSVi {
     caret-color: $text;
 }
 
 // Polls
-.container__0be77 {
+.container_HOJNvw {
     @include boxes.box;
     background: $grey;
 
     --control-brand-foreground: #{$black};
 
     // Option
-    .answer__4c520 {
+    .answer_D4-WfD {
         @include boxes.box;
 
-        &.enabled_f4f0eb {
+        &.enabled_SZxRc8 {
             @include boxes.clickable;
         }
 
-        &:is(.votedStyles_a1443c, [aria-checked="true"]) {
+        &:is(.votedStyles_JVBjO_, [aria-checked="true"]) {
             @include boxes.inset;
         }
 
         // Inner
-        .answerInner__4c520.currentlyVoting__4c520.selected__4c520 {
+        .answerInner_D4-WfD.currentlyVoting_D4-WfD.selected_D4-WfD {
             outline: none;
         }
     }

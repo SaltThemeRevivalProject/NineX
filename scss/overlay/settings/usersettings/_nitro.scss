@@ -3,13 +3,13 @@
 
 .perkCardsContainerSpacingSettings_c880e8,
 .premiumTierCardsContainerSettings_c880e8,
-.perksTitle_e6430c,
-.titleText__7eea4 {
+.perksTitle_hNerlt,
+.titleText_02LA0a {
     margin-bottom: 8px;
 }
 
-.container_cd0f26,
-.card_a2332b {
+.container_7GLVMr,
+.card_nkh6Dx {
     @include boxes.inset;
     padding: 16px;
 }
@@ -37,7 +37,7 @@
     }
 }
 
-.table__7eea4 {
+.table_02LA0a {
     @include boxes.box;
     tbody :is(th, td) {
         @include boxes.inset;
@@ -45,7 +45,7 @@
     th {
         padding: 4px;
     }
-    .row__7eea4 {
+    .row_02LA0a {
         height: auto;
     }
     .buttonsCell-gSFzSA {

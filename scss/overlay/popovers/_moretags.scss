@@ -2,7 +2,7 @@
 @use "../../top/boxes" as boxes;
 
 // See more tags creating forum post with narrow screen
-.container__3dde2 {
+.container_aQ9i70 {
     @include boxes.box;
 
     .searchWithScrollbar__97e86 {
@@ -14,16 +14,16 @@
         }
     }
 
-    .list__97e86 {
+    .list_YIHpnz {
         @include boxes.scroller;
         margin: 1px;
         padding: 0;
 
-        .item__97e86 {
+        .item_YIHpnz {
             @include boxes.clickable;
             margin: 0;
 
-            &.selected__97e86 {
+            &.selected_YIHpnz {
                 @include boxes.inset;
             }
         }

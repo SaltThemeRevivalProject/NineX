@@ -2,10 +2,10 @@
 @use "../../top/boxes" as boxes;
 
 // Incoming call alert
-.root__2dbe1 {
+.root_dcNks8 {
     @include boxes.box;
 
-    .actionButton__2dbe1 {
+    .actionButton_dcNks8 {
         @include boxes.clickable;
     }
 }

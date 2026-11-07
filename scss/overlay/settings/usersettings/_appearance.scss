@@ -10,20 +10,20 @@
     .presets__67a11 {
         gap: 8px;
 
-        .themeSelection__36dee {
+        .themeSelection_IhyaN_ {
             box-shadow: none;
             @include boxes.clickable;
 
-            &.selected__36dee {
+            &.selected_IhyaN_ {
                 @include boxes.inset;
             }
 
-            &.darkIcon__36dee {
+            &.darkIcon_IhyaN_ {
                 background: $black;
             }
         }
 
-        .selectionCircle__36dee {
+        .selectionCircle_IhyaN_ {
             display: none;
         }
     }

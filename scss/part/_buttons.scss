@@ -2,29 +2,29 @@
 @use "../top/boxes" as boxes;
 
 :is(
-    .button_d5f3cd,
+    .button_jsxF_b,
     .welcomeCTAButtonOuter_f5d1e2,
     .friendRequestsButton__523aa,
     .button__292b6,
-    .lookFilled__201d5,
-    .lookOutlined__201d5,
+    .lookFilled_9OQtot,
+    .lookOutlined_9OQtot,
     .lookInverted_a299dc
 ) {
     @include boxes.clickable;
 }
 
 :is(.theme-dark, .theme-light) {
-    .lookLink__201d5.colorPrimary__201d5 {
+    .lookLink_9OQtot.colorPrimary_9OQtot {
         color: $black;
 
-        &:hover .contents__201d5 {
+        &:hover .contents_9OQtot {
             --button--underline-color: #{$black};
         }
     }
 }
 
-.appMount__51fd7 .lookFilled__201d5 {
-    &:is(.colorBrand__201d5, .colorBrand__201d5:disabled, .colorBrand__201d5[aria-disabled="true"], .colorBrandNew__8872c) {
+.appMount_gEkNtR .lookFilled_9OQtot {
+    &:is(.colorBrand_9OQtot, .colorBrand_9OQtot:disabled, .colorBrand_9OQtot[aria-disabled="true"], .colorBrandNew__8872c) {
         color: $black;
         background: $lightgrey;
 
@@ -34,7 +34,7 @@
         }
     }
 
-    &:is(.colorPrimary__201d5, .colorTransparent__201d5) {
+    &:is(.colorPrimary_9OQtot, .colorTransparent_9OQtot) {
         color: $black;
     }
 }

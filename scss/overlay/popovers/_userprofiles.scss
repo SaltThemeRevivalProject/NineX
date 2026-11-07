@@ -31,14 +31,14 @@
         .profileBadges_f89da9 {
             gap: 0;
             padding: 0;
-            .anchor_edefb8 {
+            .anchor_R6ReNl {
                 @include boxes.clickable;
                 padding: 2px;
             }
         }
 
         // Profile badges (new profile)
-        .container__8061a {
+        .container_IqWmhA {
             @include boxes.box;
         }
 
@@ -62,7 +62,7 @@
         }
 
         code,
-        .blockquoteDivider__75297 {
+        .blockquoteDivider_ku1OHH {
             background: $darkgrey;
         }
 
@@ -83,7 +83,7 @@
         }
 
         // Activity buttons
-        .vertical__65bb6 > :not(:first-child) {
+        .vertical_nwnlPG > :not(:first-child) {
             margin-top: 0;
         }
     }

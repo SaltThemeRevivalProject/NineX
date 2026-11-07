@@ -3,7 +3,7 @@
 @use "../top/channellist-css" as channels;
 
 // Members list
-.container_c8ffbb {
+.container_86es0b {
     @include channels.vars;
     @include boxes.box;
     @include boxes.winBar($isPseudo: true, $text: "Members");
@@ -18,29 +18,29 @@
 }
 
 // Members content wrapper with scroller
-.membersWrap_c8ffbb {
+.membersWrap_86es0b {
     width: $panel-width;
     min-width: unset;
 }
 
 // Member category/role title
-.membersGroup_c8ffbb {
+.membersGroup_86es0b {
     padding-top: 10px; // Opinionated, should this be made into a var?
 }
 
 // Members list scroller
-.members_c8ffbb {
+.members_86es0b {
     margin-top: $title-height;
     width: $panel-width;
     background: none;
 
     // Member
-    .member__5d473 {
+    .member_Iy0c7A {
         margin-left: 4px;
         background: none;
 
         // Custom status or activity
-        &:is(:hover, .selected__91a9d) .activityText__5d473 {
+        &:is(:hover, .selected_J1Adu_) .activityText__5d473 {
             color: var(--interactive-hover);
         }
     }

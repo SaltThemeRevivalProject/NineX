@@ -3,13 +3,13 @@
 
 // Header bars
 :is(
-    .container__133bf .container__9293f,
-    .container__808a1 .container__9293f,
+    .container_zrUwGA .container_ybUK7Z,
+    .container_BQIdmW .container_ybUK7Z,
     .pageWrapper_a3a4ce .scroller_a3a4ce,
     .scroller_a39aa3 .viewWrapper_a39aa3,
-    .applicationStore_f07d62 .homeWrapper__0920e,
-    .container__01ae2:not(.floating__01ae2) .container__9293f:not(.wrapper_cb9592 .container__9293f),
-    .chat_f75fb0 .container__9293f:not(.wrapper_cb9592 .container__9293f)
+    .applicationStore_6U3jXZ .homeWrapper_8iSxT3,
+    .container_FrbQJp:not(.floating_FrbQJp) .container_ybUK7Z:not(.wrapper_hbKzX7 .container_ybUK7Z),
+    .chat_z_gUBg .container_ybUK7Z:not(.wrapper_hbKzX7 .container_ybUK7Z)
 ) {
     margin-top: $title-height;
     z-index: 0;
@@ -20,17 +20,17 @@
 }
 
 // End of description shadow
-.appMount__51fd7 :is(.innerHeader__0b563, .headerBarInner__7449f)::after {
+.appMount_gEkNtR :is(.innerHeader_xTP3zy, .headerBarInner_MG-lb3)::after {
     background: linear-gradient(180deg, transparent, $grey);
 }
 
 // Tools
-.toolbar__9293f {
-    .search__49676 {
+.toolbar_ybUK7Z {
+    .search_bWCaDq {
         @include boxes.inset;
         margin: 0;
 
-        .searchBar_c322aa {
+        .searchBar_i16Ad0 {
             height: 30px;
             align-items: center;
             background: $bg;
@@ -41,7 +41,7 @@
             }
 
             // Search button
-            .icon_c322aa {
+            .icon_i16Ad0 {
                 @include boxes.clickable;
                 background: $grey;
 
@@ -51,8 +51,8 @@
             }
 
             // Filters
-            .searchFilter_bd8186,
-            .searchAnswer_bd8186 {
+            .searchFilter_tknKcK,
+            .searchAnswer_tknKcK {
                 @include boxes.box;
                 background: $grey;
                 color: $black;
@@ -61,10 +61,10 @@
     }
 
     // Buttons
-    .videoControls_bfe55a
+    .videoControls_rTsZa_
         &
-        .iconWrapper__9293f.clickable__9293f:is(.anchor_edefb8 .iconWrapper__9293f:only-of-type, :has([d^="M14 8.00598"])),
-    .iconWrapper__9293f.clickable__9293f:not(.anchor_edefb8 .iconWrapper__9293f:only-of-type, :has([d^="M14 8.00598"])) {
+        .iconWrapper_ybUK7Z.clickable_ybUK7Z:is(.anchor_R6ReNl .iconWrapper_ybUK7Z:only-of-type, :has([d^="M14 8.00598"])),
+    .iconWrapper_ybUK7Z.clickable_ybUK7Z:not(.anchor_R6ReNl .iconWrapper_ybUK7Z:only-of-type, :has([d^="M14 8.00598"])) {
         @include boxes.clickable;
         margin: 0;
         height: 32px;
@@ -80,6 +80,6 @@
 }
 
 // Under header bar
-.content_f75fb0::before {
+.content_z_gUBg::before {
     display: none;
 }

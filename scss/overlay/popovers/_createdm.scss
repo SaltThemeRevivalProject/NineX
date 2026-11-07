@@ -3,7 +3,7 @@
 
 // Create (group) DM
 
-.header__49fc1 {
+.header__KoJTP {
     .subtitle_cba592 {
         color: $black;
     }
@@ -26,10 +26,10 @@
     }
 }
 
-.scroller_cba592 {
+.scroller_Xe75gx {
     @include boxes.scroller;
 
-    .friendWrapper_bbd192 {
+    .friendWrapper_45OTue {
         @include boxes.clickable;
         margin: 0;
 
@@ -37,7 +37,7 @@
             @include boxes.inset;
         }
 
-        .friendSelected_bbd192 {
+        .friendSelected_45OTue {
             background: unset;
         }
     }

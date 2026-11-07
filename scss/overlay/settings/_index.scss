@@ -35,25 +35,25 @@
 }
 
 // Notices
-.formNotice_f43ba5 {
+.formNotice_LiOD7I {
     @include boxes.box;
 }
 
 // Sliders
-.slider_a562c8 {
+.slider_p3RiOL {
     // Slider bar
-    .bar_a562c8 {
+    .bar_p3RiOL {
         @include boxes.inset;
         background: $grey;
         height: 8px;
 
-        .barFill_a562c8 {
+        .barFill_p3RiOL {
             background: transparent;
         }
     }
 
     // Slider handle
-    .grabber_a562c8 {
+    .grabber_p3RiOL {
         @include boxes.box;
         background: $grey;
         height: 20px;
@@ -66,12 +66,12 @@
     }
 
     // Slider marks
-    .mark_a562c8 {
-        &:not(.defaultValue_a562c8) .markValue_a562c8 {
+    .mark_p3RiOL {
+        &:not(.defaultValue_p3RiOL) .markValue_p3RiOL {
             color: $black;
         }
 
-        .markDash_a562c8 {
+        .markDash_p3RiOL {
             background: $black;
             height: 6px;
             width: 1px;
@@ -104,16 +104,16 @@
 }
 
 // Dropdown selectors
-.lookFilled__3f413.select_a16aea {
+.lookFilled__3f413.select_uFkqU2 {
     @include boxes.inset;
     padding: 0;
 
-    .value_a16aea {
+    .value_uFkqU2 {
         padding-left: 8px;
         color: $text;
     }
 
-    .icons_a16aea {
+    .icons_uFkqU2 {
         background: $grey;
         @include boxes.box;
     }

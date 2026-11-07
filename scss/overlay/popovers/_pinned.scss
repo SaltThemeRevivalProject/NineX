@@ -2,15 +2,15 @@
 @use "../../top/boxes" as boxes;
 
 // Pinned messages
-.messagesPopoutWrap_e8b59c {
+.messagesPopoutWrap_6bgemo {
     @include boxes.box;
 
-    .header_e8b59c {
+    .header_6bgemo {
         padding: 6px;
         box-shadow: none;
     }
 
-    .messageGroupWrapper_e8b59c {
+    .messageGroupWrapper_6bgemo {
         @include boxes.inset;
         background: $bg;
 

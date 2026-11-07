@@ -7,16 +7,16 @@
 }
 
 // Tags
-.pill_a2c9e8 {
+.pill_snX-u4 {
     @include boxes.clickable;
     background: $grey;
-    &.selected_a2c9e8 {
+    &.selected_snX-u4 {
         @include boxes.inset;
     }
 }
 
 // Main container
-.container_f369db {
+.container_BkGrJJ {
     @include boxes.inset;
     background: $bg;
 
@@ -25,10 +25,10 @@
     --bg-mod-subtle: none;
 
     // Post tags
-    @at-root .tags__08166 {
+    @at-root .tags_nLtnFF {
         gap: 0;
 
-        & > :is(.pinIcon__08166, .tagPill__9a337) {
+        & > :is(.pinIcon_nLtnFF, .tagPill_x1LvFB) {
             @include boxes.box;
             background: $grey;
 
@@ -39,12 +39,12 @@
     }
 
     // New post bubble
-    @at-root .newPostsButton_f369db {
+    @at-root .newPostsButton_BkGrJJ {
         z-index: 2;
     }
 
     // Wrapper around everything
-    .content__99f8c {
+    .content_JFqgFB {
         padding-left: 24px;
         padding-right: 24px;
 
@@ -55,7 +55,7 @@
             left: 0 !important;
             width: 100% !important;
 
-            .headerRow_f369db {
+            .headerRow_BkGrJJ {
                 left: 0 !important;
                 width: inherit !important;
             }
@@ -67,51 +67,51 @@
         }
 
         // Tag area in text posts
-        .textContentFooter__9a337 {
+        .textContentFooter_x1LvFB {
             background: transparent;
         }
     }
 
     // Everything but post cards
-    .headerRow_f369db {
+    .headerRow_BkGrJJ {
         padding: 0;
         background: $grey;
 
         // Filter by tags bar
-        .tagsContainer_f369db {
+        .tagsContainer_BkGrJJ {
             @include boxes.box;
             background: $grey;
             padding: 2px 12px;
 
             // Sort and view dropdown
-            .sortDropdown_f369db {
+            .sortDropdown_BkGrJJ {
                 margin-bottom: 0;
                 &[aria-expanded="true"] {
                     @include boxes.inset;
                 }
             }
 
-            .divider_f369db {
+            .divider_BkGrJJ {
                 display: none;
             }
 
-            .tagListInner_f369db {
+            .tagListInner_BkGrJJ {
                 gap: 0;
             }
         }
 
         // Matching post count bar
-        .matchingPostsRow_f369db {
+        .matchingPostsRow_BkGrJJ {
             @include boxes.box;
         }
 
         // Search/create posts bar
-        .mainCard_f369db {
+        .mainCard_BkGrJJ {
             margin-top: 0;
             @include boxes.box;
 
             // Search button and guidelines button
-            :is(.prefixElement_d9be46, .guidelinesButton_d7afe7) {
+            :is(.prefixElement_owUmX8, .guidelinesButton_d7afe7) {
                 @include boxes.clickable;
                 display: flex;
                 justify-content: center;
@@ -128,52 +128,52 @@
             }
 
             // Post message
-            .contentContainer_d9be46 {
+            .contentContainer_owUmX8 {
                 padding-left: 32px;
 
                 div {
                     background: $bg;
 
-                    .channelTextArea__74017 {
+                    .channelTextArea_2x8-Qn {
                         width: auto;
                     }
                 }
             }
 
             // Post attachments
-            .container__94439 {
+            .container_YeZ5Kj {
                 align-self: flex-end;
 
-                .uploadInput__94439 {
+                .uploadInput_YeZ5Kj {
                     @include boxes.clickable;
                     height: 76px;
                     width: 76px;
                 }
 
                 // Attachment not image type
-                .icon__41ea0 {
+                .icon_sBdlOA {
                     @include boxes.box;
                 }
 
                 // Attachment is image type
-                .mediaContainer__41ea0 > div:not([aria-expanded="false"]),
-                .mediaContainer__41ea0 > div:not([aria-expanded="false"]) > div {
+                .mediaContainer_sBdlOA > div:not([aria-expanded="false"]),
+                .mediaContainer_sBdlOA > div:not([aria-expanded="false"]) > div {
                     max-height: 76px;
                     max-width: 76px;
 
-                    .imageSmall__41ea0 {
+                    .imageSmall_sBdlOA {
                         height: 76px;
                     }
                 }
 
                 // Number of attachments
-                .badge__94439 {
+                .badge_YeZ5Kj {
                     z-index: 1;
                     background: $darkblue;
                 }
 
                 // Attachments popout
-                .popoutContainer__94439 {
+                .popoutContainer_YeZ5Kj {
                     z-index: 1;
                     @include boxes.box($position: absolute);
                     padding: 0;
@@ -181,7 +181,7 @@
                     right: -8px;
 
                     // Scroller
-                    .popout__94439 {
+                    .popout_YeZ5Kj {
                         padding-bottom: 0;
 
                         &::-webkit-scrollbar-track,
@@ -191,7 +191,7 @@
                         }
 
                         // Attachment controls
-                        .actionBarContainer_aa605f {
+                        .actionBarContainer_JyxBSo {
                             z-index: 2;
                         }
                     }
@@ -204,21 +204,21 @@
             }
 
             // Divider
-            .tagsDivider_d9be46 {
+            .tagsDivider_owUmX8 {
                 display: none;
             }
 
             // Post tags
-            .tagsContainer_d9be46 {
+            .tagsContainer_owUmX8 {
                 margin-left: 8px;
                 margin-top: 0px;
-                .tagListInner_d9be46 {
+                .tagListInner_owUmX8 {
                     gap: 0;
                 }
             }
 
             // Post bar
-            .controlsContainer_d9be46 {
+            .controlsContainer_owUmX8 {
                 justify-content: flex-start;
                 gap: 0;
                 margin-top: 0;
@@ -231,12 +231,12 @@
                     width: 30px;
                 }
 
-                .controls_d9be46 {
+                .controls_owUmX8 {
                     flex-grow: initial;
                     gap: 0;
 
                     // Slowmode warning
-                    .wrappedControls_d9be46 {
+                    .wrappedControls_owUmX8 {
                         order: 1;
                         padding-left: 4px;
                     }
@@ -247,15 +247,15 @@
 }
 
 // Post card
-li.card_f369db {
+li.card_BkGrJJ {
     padding: 0;
     margin: 8px;
     @include boxes.clickable;
     background: $grey;
 }
 
-:is(.container_faa96b, .container__9a337) {
-    .markup__75297 {
+:is(.container_SOY5H6, .container_x1LvFB) {
+    .markup_ku1OHH {
         color: var(--text-normal);
     }
 
@@ -264,7 +264,7 @@ li.card_f369db {
         transform: none;
     }
 
-    &:not(.isOpen_faa96b, .isOpen__9a337) {
+    &:not(.isOpen_SOY5H6, .isOpen_x1LvFB) {
         &:is(:hover, :active) {
             background: $grey;
         }
@@ -276,41 +276,41 @@ li.card_f369db {
         }
     }
 
-    &:is(.isOpen_faa96b, .isOpen__9a337) {
+    &:is(.isOpen_SOY5H6, .isOpen_x1LvFB) {
         @include boxes.inset;
     }
 
     // Post content preview
-    .thumbnailContainer_faa96b,
-    .contentPreview__9a337,
-    .bodyMedia__9a337 {
+    .thumbnailContainer_SOY5H6,
+    .contentPreview_x1LvFB,
+    .bodyMedia_x1LvFB {
         @include boxes.inset;
     }
 
     // Text content
-    .contentPreview__9a337 {
+    .contentPreview_x1LvFB {
         background: $bg;
 
-        .markup__75297 {
+        .markup_ku1OHH {
             color: $text;
         }
     }
 }
 
 // Opened post
-.scrollerInner__36d07 {
+.scrollerInner_8AE1Qq {
     overflow: unset;
 
     // Post alert options bar
-    .container__34c2c {
+    .container_HeWz1C {
         @include boxes.box;
         position: sticky;
         top: 0;
 
-        .buttons__34c2c {
+        .buttons_HeWz1C {
             gap: 0;
 
-            @at-root .addReactButton__34c2c,
+            @at-root .addReactButton_HeWz1C,
                 .buttonInner__34c2c {
                 @include boxes.clickable;
                 height: 20px;
@@ -324,6 +324,6 @@ li.card_f369db {
 }
 
 // OP post and post replies divider
-.divider_ee23ac {
+.divider_hHhMrs {
     display: none;
 }

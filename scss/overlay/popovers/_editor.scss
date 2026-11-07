@@ -2,13 +2,13 @@
 @use "../../top/boxes" as boxes;
 
 // Highlighted text editor
-.buttons_bba883 {
+.buttons_hPmUPu {
     @include boxes.box;
     background: $grey;
 
-    .icon_bba883,
-    .active__05fbc .icon_bba883,
-    .hover_d0ebf2:hover .icon_bba883 {
+    .icon_hPmUPu,
+    .active__05fbc .icon_hPmUPu,
+    .hover_d0ebf2:hover .icon_hPmUPu {
         color: $black;
     }
 
@@ -16,7 +16,7 @@
         @include boxes.inset;
     }
 
-    .divider_bba883 {
+    .divider_hPmUPu {
         display: none;
     }
 }

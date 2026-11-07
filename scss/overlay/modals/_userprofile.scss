@@ -5,7 +5,7 @@
     // Badges
     .badgeList_ec3b75 {
         gap: 0;
-        .anchor_edefb8 {
+        .anchor_R6ReNl {
             @include boxes.clickable;
         }
     }
@@ -25,10 +25,10 @@
             height: auto;
             padding: 2px 8px;
 
-            &.themed_aa8da2 {
+            &.themed_6zZYhF {
                 color: var(--text-normal);
 
-                &:is(.selected_aa8da2, :active) {
+                &:is(.selected_6zZYhF, :active) {
                     background: unset;
                     font-weight: bold;
                 }
@@ -37,7 +37,7 @@
     }
 
     // Info
-    .scrollerBase__99f8c {
+    .scrollerBase_JFqgFB {
         @include boxes.box;
 
         &::before {
@@ -49,26 +49,26 @@
         }
 
         // Connected accounts
-        .connectedAccounts_e6abe8 {
+        .connectedAccounts_XvCt_s {
             display: block;
             width: 100%;
 
-            .connectedAccountsColumn_e6abe8 {
+            .connectedAccountsColumn_XvCt_s {
                 display: inline;
                 margin-left: 0;
 
-                .connectedAccountContainer_e6abe8 {
+                .connectedAccountContainer_XvCt_s {
                     @include boxes.inset;
                     display: inline-block;
                     width: calc(460px / 3);
                     margin: 6px 6px 0 0;
 
                     // Open account in browser
-                    &:has(.anchor_edefb8) {
+                    &:has(.anchor_R6ReNl) {
                         @include boxes.clickable;
                     }
 
-                    .anchor_edefb8 {
+                    .anchor_R6ReNl {
                         position: absolute;
                         inset: 0;
 
@@ -78,17 +78,17 @@
                     }
 
                     // Hide detailed info until hover
-                    &.connectedAccountContainerWithMetadata_e6abe8 {
+                    &.connectedAccountContainerWithMetadata_XvCt_s {
                         padding: 12px 8px;
 
-                        .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb,
-                        .connectedAccountChildren_e6abe8 {
+                        .connectedAccountName_XvCt_s + .text-xs-normal_ccc5fb,
+                        .connectedAccountChildren_XvCt_s {
                             display: none;
                         }
 
                         &:hover {
-                            .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb,
-                            .connectedAccountChildren_e6abe8 {
+                            .connectedAccountName_XvCt_s + .text-xs-normal_ccc5fb,
+                            .connectedAccountChildren_XvCt_s {
                                 display: block;
                                 z-index: 1;
                                 padding: 8px;
@@ -96,14 +96,14 @@
                             }
 
                             // Joined date
-                            .connectedAccountName_e6abe8 + .text-xs-normal_ccc5fb {
+                            .connectedAccountName_XvCt_s + .text-xs-normal_ccc5fb {
                                 position: absolute;
                                 pointer-events: none;
                                 inset: 1px 1px 1px 32px;
                             }
 
                             // Detailed info
-                            &:hover .connectedAccountChildren_e6abe8 {
+                            &:hover .connectedAccountChildren_XvCt_s {
                                 @include boxes.box($position: absolute);
                                 bottom: 50px;
                                 left: -33px;
