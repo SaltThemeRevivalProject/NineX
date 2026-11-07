@@ -143,10 +143,10 @@ This theme is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 ## Credits
 ### Themes
-[hsl]:      https://github.com/DiscordStyles/HorizontalServerList
+[hsl]:      https://github.com/SaltThemeRevivalProject/HorizontalServerList
 [squared]:  https://github.com/SaltThemeRevivalProject/Squared
 
-- [HorizontalServerList][hsl] by [DiscordStyles](https://github.com/DiscordStyles) ([Gibbu](https://github.com/Gibbu)) - MIT license
+- [HorizontalServerList][hsl] by [DiscordStyles](https://github.com/DiscordStyles), using the [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Gibbu](https://github.com/Gibbu)) - MIT license
 - [Squared][squared] by [MiniDiscordThemes](https://github.com/MiniDiscordThemes), using the [SaltThemeRevivalProject](https://github.com/SaltThemeRevivalProject) fork. ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
 
 ### Fonts
